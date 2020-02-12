@@ -1,0 +1,9 @@
+name: NoAutoFish
+version: @version@
+main: cc.sfclb.noautofish.NoAutoFish
+authors: [iceBear67]
+description: Disable AutoFish hacker
+permissions:
+  naf.bypass:
+    default: op
+    description: bypass naf checks.

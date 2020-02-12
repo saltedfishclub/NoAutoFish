@@ -1,0 +1,7 @@
+*.iml
+test/*
+.gradle/*
+.idea/*
+gradle/*
+*.class
+*.jar
