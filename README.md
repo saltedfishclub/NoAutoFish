@@ -4,7 +4,7 @@ If you want to edit default config,I think you should see something in the main 
 **BUT still under development**
 
 # Commands
-No.
+- Nope.
 
 # Permissions
 - naf.bypass   

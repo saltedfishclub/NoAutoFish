@@ -13,7 +13,7 @@ public class ScoreUpdater extends BukkitRunnable {
     public void run() {
         long now = System.currentTimeMillis();
         naf.getNAFPlayers().entrySet().forEach(e -> {
-            if (now - e.getValue().lastFishTime > naf.getConfig().getInt("check_time") / 1000 / 60) {
+            if ((now - e.getValue().lastFishTime) / 1000 / 60 > naf.getConfig().getInt("clear_time")) {
                 e.getValue().score = 0;
             } else {
                 if (e.getValue().score >= naf.getConfig().getInt("count.hint")) {
